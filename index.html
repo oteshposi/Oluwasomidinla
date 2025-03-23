@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oluwasomidinla's Profile</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Welcome Section -->
+  <section class="section welcome-section">
+    <h1 class="animate-on-scroll">Welcome to Oluwasomidinla's World!</h1>
+    <p class="animate-on-scroll">So someone likes my sister? Nawa ohh <br> Abeg just keep scrolling</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section">
+    <h2 class="animate-on-scroll">About Oluwasomidinla</h2>
+    <div class="profile-container animate-on-scroll">
+      <img src="somidinla tired.jpg" alt="Oluwasomidinla's Picture" class="profile-picture">
+      <div class="profile-details">
+        <h3>Oluwasomidinla</h3>
+        <p>A wonderful human being who loves life, laughter, and making people smile.</p>
+      </div>
+    </div>
+    <div class="likes-dislikes animate-on-scroll">
+      <div class="likes">
+        <h3>What She Likes</h3>
+        <ul>
+          <li><i class="icon-heart"></i> GOD!!!</li>
+          <li><i class="icon-heart"></i> Annoying me</li>
+          <li><i class="icon-heart"></i> Watching movies</li>
+          <li><i class="icon-heart"></i> Sleeping</li>
+          <li><i class="icon-heart"></i> Sha soft life sha</li>
+        </ul>
+      </div>
+      <div class="dislikes">
+        <h3>What She Doesn't Like</h3>
+        <ul>
+          <li><i class="icon-cross"></i> Ignoring her</li>
+          <li><i class="icon-cross"></i> How can you not even love God sef??</li>
+          <li><i class="icon-cross"></i> Unwashed dishes</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills-section">
+    <h2 class="animate-on-scroll">Her Skills</h2>
+    <ul class="skills-list animate-on-scroll">
+      <li><button class="skill-btn product-management">Product Management</button></li>
+      <li><button class="skill-btn pharmacy">Pharmacy</button></li>
+      <li><button class="skill-btn yahoo">Yahoo</button></li>
+      <li><button class="skill-btn singing">Singing</button></li>
+    </ul>
+    <div id="message-box" class="message-box hidden"></div>
+  </section>
+
+  <!-- Payment Section -->
+  <section class="section payment-section">
+    <h2 class="animate-on-scroll">Now You Know How Amazing She Is!</h2>
+    <p class="animate-on-scroll">To proceed, kindly pay the form fee. The price increases every 10 seconds!</p>
+    <div class="payment-form animate-on-scroll">
+      <h3>Secure Payment Gateway</h3>
+      <form id="fake-payment-form">
+        <p id="price-display">Current Fee: $<span id="current-price">2000</span></p>
+        <div class="form-group">
+          <label for="card-number">Card Number</label>
+          <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+        </div>
+        <div class="form-group">
+          <label for="expiry-date">Expiry Date</label>
+          <input type="text" id="expiry-date" placeholder="MM/YY" required>
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" placeholder="123" required>
+        </div>
+        <div class="form-group">
+          <label for="name-on-card">Name on Card</label>
+          <input type="text" id="name-on-card" placeholder="John Doe" required>
+        </div>
+        <button type="submit" id="pay-button">Pay Now</button>
+      </form>
+      <p class="fine-print">By clicking "Pay Now," you agree to our <a href="#">Terms & Conditions</a>, which include donating your firstborn child to us in case of late payment.</p>
+    </div>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
